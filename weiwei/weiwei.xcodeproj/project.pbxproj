@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3FC189F2272CEA300DC5B4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FC189E2272CEA300DC5B4B /* AppDelegate.swift */; };
+		A3FC18A12272CEA300DC5B4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FC18A02272CEA300DC5B4B /* ViewController.swift */; };
+		A3FC18A42272CEA300DC5B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FC18A22272CEA300DC5B4B /* Main.storyboard */; };
+		A3FC18A62272CEA400DC5B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FC18A52272CEA400DC5B4B /* Assets.xcassets */; };
+		A3FC18A92272CEA400DC5B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FC18A72272CEA400DC5B4B /* LaunchScreen.storyboard */; };
+		A3FC18B42272CEA400DC5B4B /* weiweiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FC18B32272CEA400DC5B4B /* weiweiTests.swift */; };
+		A3FC18BF2272CEA400DC5B4B /* weiweiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FC18BE2272CEA400DC5B4B /* weiweiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3FC18B02272CEA400DC5B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3FC18932272CEA300DC5B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3FC189A2272CEA300DC5B4B;
+			remoteInfo = weiwei;
+		};
+		A3FC18BB2272CEA400DC5B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3FC18932272CEA300DC5B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3FC189A2272CEA300DC5B4B;
+			remoteInfo = weiwei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3FC189B2272CEA300DC5B4B /* weiwei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weiwei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FC189E2272CEA300DC5B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3FC18A02272CEA300DC5B4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3FC18A32272CEA300DC5B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3FC18A52272CEA400DC5B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3FC18A82272CEA400DC5B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3FC18AA2272CEA400DC5B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3FC18AF2272CEA400DC5B4B /* weiweiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiweiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FC18B32272CEA400DC5B4B /* weiweiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weiweiTests.swift; sourceTree = "<group>"; };
+		A3FC18B52272CEA400DC5B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3FC18BA2272CEA400DC5B4B /* weiweiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiweiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FC18BE2272CEA400DC5B4B /* weiweiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weiweiUITests.swift; sourceTree = "<group>"; };
+		A3FC18C02272CEA400DC5B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3FC18982272CEA300DC5B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FC18AC2272CEA400DC5B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FC18B72272CEA400DC5B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3FC18922272CEA300DC5B4B = {
+			isa = PBXGroup;
+			children = (
+				A3FC189D2272CEA300DC5B4B /* weiwei */,
+				A3FC18B22272CEA400DC5B4B /* weiweiTests */,
+				A3FC18BD2272CEA400DC5B4B /* weiweiUITests */,
+				A3FC189C2272CEA300DC5B4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3FC189C2272CEA300DC5B4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3FC189B2272CEA300DC5B4B /* weiwei.app */,
+				A3FC18AF2272CEA400DC5B4B /* weiweiTests.xctest */,
+				A3FC18BA2272CEA400DC5B4B /* weiweiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3FC189D2272CEA300DC5B4B /* weiwei */ = {
+			isa = PBXGroup;
+			children = (
+				A3FC189E2272CEA300DC5B4B /* AppDelegate.swift */,
+				A3FC18A02272CEA300DC5B4B /* ViewController.swift */,
+				A3FC18A22272CEA300DC5B4B /* Main.storyboard */,
+				A3FC18A52272CEA400DC5B4B /* Assets.xcassets */,
+				A3FC18A72272CEA400DC5B4B /* LaunchScreen.storyboard */,
+				A3FC18AA2272CEA400DC5B4B /* Info.plist */,
+			);
+			path = weiwei;
+			sourceTree = "<group>";
+		};
+		A3FC18B22272CEA400DC5B4B /* weiweiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3FC18B32272CEA400DC5B4B /* weiweiTests.swift */,
+				A3FC18B52272CEA400DC5B4B /* Info.plist */,
+			);
+			path = weiweiTests;
+			sourceTree = "<group>";
+		};
+		A3FC18BD2272CEA400DC5B4B /* weiweiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3FC18BE2272CEA400DC5B4B /* weiweiUITests.swift */,
+				A3FC18C02272CEA400DC5B4B /* Info.plist */,
+			);
+			path = weiweiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3FC189A2272CEA300DC5B4B /* weiwei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FC18C32272CEA400DC5B4B /* Build configuration list for PBXNativeTarget "weiwei" */;
+			buildPhases = (
+				A3FC18972272CEA300DC5B4B /* Sources */,
+				A3FC18982272CEA300DC5B4B /* Frameworks */,
+				A3FC18992272CEA300DC5B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weiwei;
+			productName = weiwei;
+			productReference = A3FC189B2272CEA300DC5B4B /* weiwei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3FC18AE2272CEA400DC5B4B /* weiweiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FC18C62272CEA400DC5B4B /* Build configuration list for PBXNativeTarget "weiweiTests" */;
+			buildPhases = (
+				A3FC18AB2272CEA400DC5B4B /* Sources */,
+				A3FC18AC2272CEA400DC5B4B /* Frameworks */,
+				A3FC18AD2272CEA400DC5B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3FC18B12272CEA400DC5B4B /* PBXTargetDependency */,
+			);
+			name = weiweiTests;
+			productName = weiweiTests;
+			productReference = A3FC18AF2272CEA400DC5B4B /* weiweiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3FC18B92272CEA400DC5B4B /* weiweiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FC18C92272CEA400DC5B4B /* Build configuration list for PBXNativeTarget "weiweiUITests" */;
+			buildPhases = (
+				A3FC18B62272CEA400DC5B4B /* Sources */,
+				A3FC18B72272CEA400DC5B4B /* Frameworks */,
+				A3FC18B82272CEA400DC5B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3FC18BC2272CEA400DC5B4B /* PBXTargetDependency */,
+			);
+			name = weiweiUITests;
+			productName = weiweiUITests;
+			productReference = A3FC18BA2272CEA400DC5B4B /* weiweiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3FC18932272CEA300DC5B4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = sunny;
+				TargetAttributes = {
+					A3FC189A2272CEA300DC5B4B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A3FC18AE2272CEA400DC5B4B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A3FC189A2272CEA300DC5B4B;
+					};
+					A3FC18B92272CEA400DC5B4B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A3FC189A2272CEA300DC5B4B;
+					};
+				};
+			};
+			buildConfigurationList = A3FC18962272CEA300DC5B4B /* Build configuration list for PBXProject "weiwei" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3FC18922272CEA300DC5B4B;
+			productRefGroup = A3FC189C2272CEA300DC5B4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3FC189A2272CEA300DC5B4B /* weiwei */,
+				A3FC18AE2272CEA400DC5B4B /* weiweiTests */,
+				A3FC18B92272CEA400DC5B4B /* weiweiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3FC18992272CEA300DC5B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FC18A92272CEA400DC5B4B /* LaunchScreen.storyboard in Resources */,
+				A3FC18A62272CEA400DC5B4B /* Assets.xcassets in Resources */,
+				A3FC18A42272CEA300DC5B4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FC18AD2272CEA400DC5B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FC18B82272CEA400DC5B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3FC18972272CEA300DC5B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FC18A12272CEA300DC5B4B /* ViewController.swift in Sources */,
+				A3FC189F2272CEA300DC5B4B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FC18AB2272CEA400DC5B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FC18B42272CEA400DC5B4B /* weiweiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FC18B62272CEA400DC5B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FC18BF2272CEA400DC5B4B /* weiweiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3FC18B12272CEA400DC5B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3FC189A2272CEA300DC5B4B /* weiwei */;
+			targetProxy = A3FC18B02272CEA400DC5B4B /* PBXContainerItemProxy */;
+		};
+		A3FC18BC2272CEA400DC5B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3FC189A2272CEA300DC5B4B /* weiwei */;
+			targetProxy = A3FC18BB2272CEA400DC5B4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3FC18A22272CEA300DC5B4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3FC18A32272CEA300DC5B4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3FC18A72272CEA400DC5B4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3FC18A82272CEA400DC5B4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3FC18C12272CEA400DC5B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3FC18C22272CEA400DC5B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3FC18C42272CEA400DC5B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8J23M2B3X;
+				INFOPLIST_FILE = weiwei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.com.weiwei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3FC18C52272CEA400DC5B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8J23M2B3X;
+				INFOPLIST_FILE = weiwei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.com.weiwei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3FC18C72272CEA400DC5B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8J23M2B3X;
+				INFOPLIST_FILE = weiweiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.com.weiweiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weiwei.app/weiwei";
+			};
+			name = Debug;
+		};
+		A3FC18C82272CEA400DC5B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8J23M2B3X;
+				INFOPLIST_FILE = weiweiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.com.weiweiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weiwei.app/weiwei";
+			};
+			name = Release;
+		};
+		A3FC18CA2272CEA400DC5B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8J23M2B3X;
+				INFOPLIST_FILE = weiweiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.com.weiweiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = weiwei;
+			};
+			name = Debug;
+		};
+		A3FC18CB2272CEA400DC5B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8J23M2B3X;
+				INFOPLIST_FILE = weiweiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.com.weiweiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = weiwei;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3FC18962272CEA300DC5B4B /* Build configuration list for PBXProject "weiwei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FC18C12272CEA400DC5B4B /* Debug */,
+				A3FC18C22272CEA400DC5B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FC18C32272CEA400DC5B4B /* Build configuration list for PBXNativeTarget "weiwei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FC18C42272CEA400DC5B4B /* Debug */,
+				A3FC18C52272CEA400DC5B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FC18C62272CEA400DC5B4B /* Build configuration list for PBXNativeTarget "weiweiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FC18C72272CEA400DC5B4B /* Debug */,
+				A3FC18C82272CEA400DC5B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FC18C92272CEA400DC5B4B /* Build configuration list for PBXNativeTarget "weiweiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FC18CA2272CEA400DC5B4B /* Debug */,
+				A3FC18CB2272CEA400DC5B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3FC18932272CEA300DC5B4B /* Project object */;
+}
