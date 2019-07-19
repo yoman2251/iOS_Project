@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3FC194D22854CBD00DC5B4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FC194C22854CBD00DC5B4B /* AppDelegate.swift */; };
+		A3FC194F22854CBD00DC5B4B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FC194E22854CBD00DC5B4B /* FirstViewController.swift */; };
+		A3FC195122854CBD00DC5B4B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FC195022854CBD00DC5B4B /* SecondViewController.swift */; };
+		A3FC195422854CBD00DC5B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FC195222854CBD00DC5B4B /* Main.storyboard */; };
+		A3FC195622854CBE00DC5B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FC195522854CBE00DC5B4B /* Assets.xcassets */; };
+		A3FC195922854CBE00DC5B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FC195722854CBE00DC5B4B /* LaunchScreen.storyboard */; };
+		A3FC196422854CBE00DC5B4B /* HelloTebbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FC196322854CBE00DC5B4B /* HelloTebbarTests.swift */; };
+		A3FC196F22854CBE00DC5B4B /* HelloTebbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FC196E22854CBE00DC5B4B /* HelloTebbarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3FC196022854CBE00DC5B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3FC194122854CBD00DC5B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3FC194822854CBD00DC5B4B;
+			remoteInfo = HelloTebbar;
+		};
+		A3FC196B22854CBE00DC5B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3FC194122854CBD00DC5B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3FC194822854CBD00DC5B4B;
+			remoteInfo = HelloTebbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3FC194922854CBD00DC5B4B /* HelloTebbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloTebbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FC194C22854CBD00DC5B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3FC194E22854CBD00DC5B4B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A3FC195022854CBD00DC5B4B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A3FC195322854CBD00DC5B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3FC195522854CBE00DC5B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3FC195822854CBE00DC5B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3FC195A22854CBE00DC5B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3FC195F22854CBE00DC5B4B /* HelloTebbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTebbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FC196322854CBE00DC5B4B /* HelloTebbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTebbarTests.swift; sourceTree = "<group>"; };
+		A3FC196522854CBE00DC5B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3FC196A22854CBE00DC5B4B /* HelloTebbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTebbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FC196E22854CBE00DC5B4B /* HelloTebbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTebbarUITests.swift; sourceTree = "<group>"; };
+		A3FC197022854CBE00DC5B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3FC194622854CBD00DC5B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FC195C22854CBE00DC5B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FC196722854CBE00DC5B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3FC194022854CBD00DC5B4B = {
+			isa = PBXGroup;
+			children = (
+				A3FC194B22854CBD00DC5B4B /* HelloTebbar */,
+				A3FC196222854CBE00DC5B4B /* HelloTebbarTests */,
+				A3FC196D22854CBE00DC5B4B /* HelloTebbarUITests */,
+				A3FC194A22854CBD00DC5B4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3FC194A22854CBD00DC5B4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3FC194922854CBD00DC5B4B /* HelloTebbar.app */,
+				A3FC195F22854CBE00DC5B4B /* HelloTebbarTests.xctest */,
+				A3FC196A22854CBE00DC5B4B /* HelloTebbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3FC194B22854CBD00DC5B4B /* HelloTebbar */ = {
+			isa = PBXGroup;
+			children = (
+				A3FC194C22854CBD00DC5B4B /* AppDelegate.swift */,
+				A3FC194E22854CBD00DC5B4B /* FirstViewController.swift */,
+				A3FC195022854CBD00DC5B4B /* SecondViewController.swift */,
+				A3FC195222854CBD00DC5B4B /* Main.storyboard */,
+				A3FC195522854CBE00DC5B4B /* Assets.xcassets */,
+				A3FC195722854CBE00DC5B4B /* LaunchScreen.storyboard */,
+				A3FC195A22854CBE00DC5B4B /* Info.plist */,
+			);
+			path = HelloTebbar;
+			sourceTree = "<group>";
+		};
+		A3FC196222854CBE00DC5B4B /* HelloTebbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3FC196322854CBE00DC5B4B /* HelloTebbarTests.swift */,
+				A3FC196522854CBE00DC5B4B /* Info.plist */,
+			);
+			path = HelloTebbarTests;
+			sourceTree = "<group>";
+		};
+		A3FC196D22854CBE00DC5B4B /* HelloTebbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3FC196E22854CBE00DC5B4B /* HelloTebbarUITests.swift */,
+				A3FC197022854CBE00DC5B4B /* Info.plist */,
+			);
+			path = HelloTebbarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3FC194822854CBD00DC5B4B /* HelloTebbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FC197322854CBE00DC5B4B /* Build configuration list for PBXNativeTarget "HelloTebbar" */;
+			buildPhases = (
+				A3FC194522854CBD00DC5B4B /* Sources */,
+				A3FC194622854CBD00DC5B4B /* Frameworks */,
+				A3FC194722854CBD00DC5B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloTebbar;
+			productName = HelloTebbar;
+			productReference = A3FC194922854CBD00DC5B4B /* HelloTebbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3FC195E22854CBE00DC5B4B /* HelloTebbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FC197622854CBE00DC5B4B /* Build configuration list for PBXNativeTarget "HelloTebbarTests" */;
+			buildPhases = (
+				A3FC195B22854CBE00DC5B4B /* Sources */,
+				A3FC195C22854CBE00DC5B4B /* Frameworks */,
+				A3FC195D22854CBE00DC5B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3FC196122854CBE00DC5B4B /* PBXTargetDependency */,
+			);
+			name = HelloTebbarTests;
+			productName = HelloTebbarTests;
+			productReference = A3FC195F22854CBE00DC5B4B /* HelloTebbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3FC196922854CBE00DC5B4B /* HelloTebbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FC197922854CBE00DC5B4B /* Build configuration list for PBXNativeTarget "HelloTebbarUITests" */;
+			buildPhases = (
+				A3FC196622854CBE00DC5B4B /* Sources */,
+				A3FC196722854CBE00DC5B4B /* Frameworks */,
+				A3FC196822854CBE00DC5B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3FC196C22854CBE00DC5B4B /* PBXTargetDependency */,
+			);
+			name = HelloTebbarUITests;
+			productName = HelloTebbarUITests;
+			productReference = A3FC196A22854CBE00DC5B4B /* HelloTebbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3FC194122854CBD00DC5B4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = sunny;
+				TargetAttributes = {
+					A3FC194822854CBD00DC5B4B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A3FC195E22854CBE00DC5B4B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A3FC194822854CBD00DC5B4B;
+					};
+					A3FC196922854CBE00DC5B4B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A3FC194822854CBD00DC5B4B;
+					};
+				};
+			};
+			buildConfigurationList = A3FC194422854CBD00DC5B4B /* Build configuration list for PBXProject "HelloTebbar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3FC194022854CBD00DC5B4B;
+			productRefGroup = A3FC194A22854CBD00DC5B4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3FC194822854CBD00DC5B4B /* HelloTebbar */,
+				A3FC195E22854CBE00DC5B4B /* HelloTebbarTests */,
+				A3FC196922854CBE00DC5B4B /* HelloTebbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3FC194722854CBD00DC5B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FC195922854CBE00DC5B4B /* LaunchScreen.storyboard in Resources */,
+				A3FC195622854CBE00DC5B4B /* Assets.xcassets in Resources */,
+				A3FC195422854CBD00DC5B4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FC195D22854CBE00DC5B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FC196822854CBE00DC5B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3FC194522854CBD00DC5B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FC195122854CBD00DC5B4B /* SecondViewController.swift in Sources */,
+				A3FC194D22854CBD00DC5B4B /* AppDelegate.swift in Sources */,
+				A3FC194F22854CBD00DC5B4B /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FC195B22854CBE00DC5B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FC196422854CBE00DC5B4B /* HelloTebbarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FC196622854CBE00DC5B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FC196F22854CBE00DC5B4B /* HelloTebbarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3FC196122854CBE00DC5B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3FC194822854CBD00DC5B4B /* HelloTebbar */;
+			targetProxy = A3FC196022854CBE00DC5B4B /* PBXContainerItemProxy */;
+		};
+		A3FC196C22854CBE00DC5B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3FC194822854CBD00DC5B4B /* HelloTebbar */;
+			targetProxy = A3FC196B22854CBE00DC5B4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3FC195222854CBD00DC5B4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3FC195322854CBD00DC5B4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3FC195722854CBE00DC5B4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3FC195822854CBE00DC5B4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3FC197122854CBE00DC5B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3FC197222854CBE00DC5B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3FC197422854CBE00DC5B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8J23M2B3X;
+				INFOPLIST_FILE = HelloTebbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.com.HelloTebbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3FC197522854CBE00DC5B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8J23M2B3X;
+				INFOPLIST_FILE = HelloTebbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.com.HelloTebbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3FC197722854CBE00DC5B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8J23M2B3X;
+				INFOPLIST_FILE = HelloTebbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.com.HelloTebbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloTebbar.app/HelloTebbar";
+			};
+			name = Debug;
+		};
+		A3FC197822854CBE00DC5B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8J23M2B3X;
+				INFOPLIST_FILE = HelloTebbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.com.HelloTebbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloTebbar.app/HelloTebbar";
+			};
+			name = Release;
+		};
+		A3FC197A22854CBE00DC5B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8J23M2B3X;
+				INFOPLIST_FILE = HelloTebbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.com.HelloTebbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloTebbar;
+			};
+			name = Debug;
+		};
+		A3FC197B22854CBE00DC5B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8J23M2B3X;
+				INFOPLIST_FILE = HelloTebbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.com.HelloTebbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloTebbar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3FC194422854CBD00DC5B4B /* Build configuration list for PBXProject "HelloTebbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FC197122854CBE00DC5B4B /* Debug */,
+				A3FC197222854CBE00DC5B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FC197322854CBE00DC5B4B /* Build configuration list for PBXNativeTarget "HelloTebbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FC197422854CBE00DC5B4B /* Debug */,
+				A3FC197522854CBE00DC5B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FC197622854CBE00DC5B4B /* Build configuration list for PBXNativeTarget "HelloTebbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FC197722854CBE00DC5B4B /* Debug */,
+				A3FC197822854CBE00DC5B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FC197922854CBE00DC5B4B /* Build configuration list for PBXNativeTarget "HelloTebbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FC197A22854CBE00DC5B4B /* Debug */,
+				A3FC197B22854CBE00DC5B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3FC194122854CBD00DC5B4B /* Project object */;
+}
